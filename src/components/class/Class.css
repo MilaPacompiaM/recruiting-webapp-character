@@ -5,3 +5,6 @@
   box-shadow: .5em 0 0 #3a55dd, -.5em 0 0 #3a55dd;
   font-weight: bold;
 }
+div {
+  cursor: pointer;
+}

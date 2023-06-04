@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <section style={{display: 'flex'}}>
         <div className='column'><Attributes /></div>
-        <div className='column' style={{maxWidth: '100px'}}>
+        <div className='column' style={{width: '150px'}}>
           <Classes />
         </div>
       </section>
