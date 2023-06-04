@@ -1,12 +1,15 @@
 import './App.css';
-//import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
 import { Attributes } from './components/attributes/Attributes';
+import { Classes } from './components/classes/Classes';
 
 function App() {
   return (
     <div className="App">
-      <section>
-        <Attributes />
+      <section style={{display: 'flex'}}>
+        <div className='column'><Attributes /></div>
+        <div className='column' style={{maxWidth: '100px'}}>
+          <Classes />
+        </div>
       </section>
     </div>
   );

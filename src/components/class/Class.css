@@ -1,0 +1,7 @@
+.selected {
+  padding: 4px 0;
+  background: #3a55dd;
+  color: #ffffff;
+  box-shadow: .5em 0 0 #3a55dd, -.5em 0 0 #3a55dd;
+  font-weight: bold;
+}
