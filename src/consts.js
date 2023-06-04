@@ -55,3 +55,6 @@ export const SKILL_LIST = [
     { name: 'Survival', attributeModifier: 'Wisdom' },
 
 ]
+
+export const ATTRIBUTE_DEFAULT_VALUE = 10;
+export const MODIFIER_DEFAULT_VALUE = 0;
