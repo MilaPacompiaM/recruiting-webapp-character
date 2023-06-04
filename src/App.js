@@ -1,6 +1,7 @@
 import './App.css';
 import { Attributes } from './components/attributes/Attributes';
 import { Classes } from './components/classes/Classes';
+import { Skills } from './components/skills/Skills';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <div className='column'><Attributes /></div>
         <div className='column' style={{width: '150px'}}>
           <Classes />
+        </div>
+        <div>
+          <Skills />
         </div>
       </section>
     </div>

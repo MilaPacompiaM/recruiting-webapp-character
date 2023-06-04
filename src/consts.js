@@ -58,3 +58,4 @@ export const SKILL_LIST = [
 
 export const ATTRIBUTE_DEFAULT_VALUE = 10;
 export const MODIFIER_DEFAULT_VALUE = 0;
+export const SKILL_DEFAULT_VALUE = 0;
